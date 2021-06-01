@@ -15,14 +15,13 @@ class Hopper {
 	public Connection connection;
 	public Vessel hopper;
 
-	
 	public double Head = 90;
 
 	public Hopper(Connection conn) {
 
 		Console.WriteLine("Hopper is in startup");
 		connection = conn;
-
+		
 		hopper = connection.SpaceCenter().ActiveVessel;
 
 		// Juste pour tester:
@@ -49,7 +48,7 @@ class Hopper {
 		//Vol stationnaire pour TargetPitch=90 et décalage vers le côté sinon
 		hopper.Control.Throttle = thrust;
 
-
+	   //Ancien code:
 	   /* hopper.Control.Throttle = 1;
 		hopper.AutoPilot.Engage();
 		hopper.AutoPilot.TargetPitchAndHeading(90, (float)Head);
