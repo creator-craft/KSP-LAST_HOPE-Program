@@ -60,8 +60,6 @@ class Hopper {
 		hopper.Control.ActivateNextStage();
 
 		Console.WriteLine("Liftoff");*/
-
-		//Presque ptdr
 		
 	}
 
