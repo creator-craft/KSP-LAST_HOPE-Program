@@ -63,6 +63,7 @@ class Hopper {
 
 		//Hey si vous ne voyer pas ça ;\
 		
+
 	}
 
 	/* Poids: en N
