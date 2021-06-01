@@ -15,7 +15,7 @@ class Hopper {
 	public Connection connection;
 	public Vessel hopper;
 
-
+	
 	public double Head = 90;
 
 	public Hopper(Connection conn) {
@@ -60,8 +60,6 @@ class Hopper {
 		hopper.Control.ActivateNextStage();
 
 		Console.WriteLine("Liftoff");*/
-
-		//Presque ptdr
 		
 	}
 
