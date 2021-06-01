@@ -3,6 +3,13 @@ using KRPC.Client.Services.SpaceCenter;
 using System;
 using System.Threading;
 
+/*
+1er stape: valider les changements -> onglet droite "modification git" -> bouton "Valider les changements indexés"
+Publier: Git -> envoyer (push)
+récupéré: Git -> récupérer (fetch) -> Fusion -> bouton accepter les modificaztions entrantes
+
+*/
+
 class Hopper {
 
 	public static readonly double G = 6.674E10;
