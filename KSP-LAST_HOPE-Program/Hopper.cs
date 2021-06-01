@@ -17,7 +17,7 @@ class Hopper {
 
 
 	public double Head = 90;
-	
+
 	public Hopper(Connection conn) {
 
 		Console.WriteLine("Hopper is in startup");
@@ -61,6 +61,7 @@ class Hopper {
 
 		Console.WriteLine("Liftoff");*/
 		
+
 	}
 
 	/* Poids: en N
