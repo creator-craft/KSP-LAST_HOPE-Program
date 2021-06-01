@@ -17,7 +17,7 @@ class Hopper {
 
 
 	public double Head = 90;
-	
+
 	public Hopper(Connection conn) {
 
 		Console.WriteLine("Hopper is in startup");
@@ -60,6 +60,8 @@ class Hopper {
 		hopper.Control.ActivateNextStage();
 
 		Console.WriteLine("Liftoff");*/
+
+		//Hey si vous ne voyer pas ça ;\
 		
 	}
 
