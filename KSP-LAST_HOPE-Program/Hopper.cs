@@ -61,9 +61,8 @@ class Hopper {
 
 		Console.WriteLine("Liftoff");*/
 
-		//Hey si vous ne voyer pas ça ;\
+		//Presque ptdr
 		
-
 	}
 
 	/* Poids: en N
